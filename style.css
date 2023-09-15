@@ -6,3 +6,10 @@ body {
 text-align: center;
 color: royalblue;
 }
+.subheading {
+text-align: center;
+color: red;
+}
+.parent {
+    background-image: url(img.webp);
+}
