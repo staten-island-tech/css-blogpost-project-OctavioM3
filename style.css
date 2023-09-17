@@ -1,15 +1,41 @@
 body {
     background-color: bisque;
 }
-
+.parent {
+    background-image: url(Images/img.webp);
+    background-position: center;    
+    background-size: cover;
+    height: 25vh;
+}
 .heading {
 text-align: center;
-color: royalblue;
+color: white;
+position: absolute;
+top: 12%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: 'Black Ops One', cursive;
+}
+.blogs {
+text-align: center;
 }
 .subheading {
-text-align: center;
-color: red;
+    margin-bottom: 50px;
+    text-align: center;
 }
-.parent {
-    background-image: url(img.webp);
+.writing {
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+span {
+    color: red;
+}
+.word {
+    color: blue
+}
+.SM-blog {
+    background-image: url(Images/spider-man\ img.jpg);
+    text-align: center;
 }
