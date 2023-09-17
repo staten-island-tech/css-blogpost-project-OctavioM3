@@ -16,9 +16,6 @@ left: 50%;
 transform: translate(-50%, -50%);
 font-family: 'Black Ops One', cursive;
 }
-.blogs {
-text-align: center;
-}
 .subheading {
     margin-bottom: 50px;
     text-align: center;
@@ -26,8 +23,19 @@ text-align: center;
 .writing {
     font-family: 'Sriracha', cursive;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-2.5%,200%);
+    color: black;
+}
+.intro {
+    font-family: 'Sriracha', cursive;
+    margin-top: 50x;
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 span {
     color: red;
@@ -35,7 +43,92 @@ span {
 .word {
     color: blue
 }
-.SM-blog {
+.SMblog {
     background-image: url(Images/spider-man\ img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    border: 5px solid red;
     text-align: center;
+    position: relative;
+    padding: 10vh 10vh;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.GTblog {
+    background-image: url(Images/ghost-of-tsushima\ img.webp);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    border: 5px solid black;
+    text-align: center;
+    position: relative;
+    padding: 10vh 10vh;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.word2 {
+    color: darkgrey
+}
+.word3 {
+    color: white
+}
+.SSBUblog {
+    background-image: url(Images/SSBU\ img.avif);
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    border: 5px solid lightblue;
+    text-align: center;
+    position: relative;
+    padding: 10vh 10vh;
+    margin-top: 20%;
+    margin-bottom: 20%; 
+    
+}
+.TOTKblog {
+    background-image: url(Images/totk\ img.webp);
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    border: 5px solid lightblue;
+    text-align: center;
+    position: relative;
+    padding: 10vh 10vh;
+    margin-top: 20%;
+    margin-bottom: 20%; 
+    
+}
+.Sifublog {
+    background-image: url(Images/sifu\ img.webp);
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    border: 5px solid red;
+    text-align: center;
+    position: relative;
+    padding: 10vh 10vh;
+    margin-top: 20%;
+    margin-bottom: 20%; 
+}
+.AWOblog {
+    background-image: url(Images/awo\ img.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    border: 5px solid Black;
+    text-align: center;
+    position: relative;
+    padding: 10vh 10vh;
+    margin-top: 20%;
+    margin-bottom: 20%; 
+}
+.AWO {
+    color: yellow;
+}
+.word3 {
+    color: red;
+}
+.word4 {
+    color: yellow
 }
