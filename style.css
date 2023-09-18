@@ -45,7 +45,7 @@ span {
 }
 .SMblog {
     background-image: url(Images/spider-man\ img.jpg);
-    background-position: center;
+    background-position-y: -60px;
     background-size: cover;
     height: 25vh;
     border: 5px solid red;
@@ -54,10 +54,11 @@ span {
     padding: 10vh 10vh;
     margin-top: 20%;
     margin-bottom: 20%;
+    color: white;
 }
 .GTblog {
     background-image: url(Images/ghost-of-tsushima\ img.webp);
-    background-position: center;
+    background-position-y: -80px;
     background-size: cover;
     height: 30vh;
     border: 5px solid black;
@@ -66,6 +67,7 @@ span {
     padding: 10vh 10vh;
     margin-top: 20%;
     margin-bottom: 20%;
+    color: white;
 }
 .word2 {
     color: darkgrey
@@ -75,7 +77,7 @@ span {
 }
 .SSBUblog {
     background-image: url(Images/SSBU\ img.avif);
-    background-position: center;
+    background-position-y: -100px;
     background-size: cover;
     height: 25vh;
     border: 5px solid lightblue;
@@ -84,7 +86,7 @@ span {
     padding: 10vh 10vh;
     margin-top: 20%;
     margin-bottom: 20%; 
-    
+    color: green;
 }
 .TOTKblog {
     background-image: url(Images/totk\ img.webp);
@@ -97,11 +99,11 @@ span {
     padding: 10vh 10vh;
     margin-top: 20%;
     margin-bottom: 20%; 
-    
+    color: green;
 }
 .Sifublog {
     background-image: url(Images/sifu\ img.webp);
-    background-position: center;
+    background-position-y: -70px;
     background-size: cover;
     height: 25vh;
     border: 5px solid red;
@@ -113,7 +115,7 @@ span {
 }
 .AWOblog {
     background-image: url(Images/awo\ img.jpeg);
-    background-position: center;
+    background-position-y: -100px;
     background-size: cover;
     height: 25vh;
     border: 5px solid Black;
@@ -122,8 +124,6 @@ span {
     padding: 10vh 10vh;
     margin-top: 20%;
     margin-bottom: 20%; 
-}
-.AWO {
     color: yellow;
 }
 .word3 {
